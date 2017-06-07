@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AEEDD3B1EE69DBE000D3477 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AEEDD3A1EE69DBE000D3477 /* main.m */; };
+		6AEEDD3E1EE69DBE000D3477 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AEEDD3D1EE69DBE000D3477 /* AppDelegate.m */; };
+		6AEEDD411EE69DBE000D3477 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AEEDD401EE69DBE000D3477 /* ViewController.m */; };
+		6AEEDD441EE69DBE000D3477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AEEDD421EE69DBE000D3477 /* Main.storyboard */; };
+		6AEEDD461EE69DBE000D3477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AEEDD451EE69DBE000D3477 /* Assets.xcassets */; };
+		6AEEDD491EE69DBE000D3477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AEEDD471EE69DBE000D3477 /* LaunchScreen.storyboard */; };
+		6AEEDD541EE69DBE000D3477 /* FontDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AEEDD531EE69DBE000D3477 /* FontDemoTests.m */; };
+		6AEEDD5F1EE69DBF000D3477 /* FontDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AEEDD5E1EE69DBF000D3477 /* FontDemoUITests.m */; };
+		6AEEDD6E1EE6A164000D3477 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AEEDD6D1EE6A164000D3477 /* CoreText.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AEEDD501EE69DBE000D3477 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AEEDD2E1EE69DBE000D3477 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AEEDD351EE69DBE000D3477;
+			remoteInfo = FontDemo;
+		};
+		6AEEDD5B1EE69DBE000D3477 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AEEDD2E1EE69DBE000D3477 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AEEDD351EE69DBE000D3477;
+			remoteInfo = FontDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6AEEDD361EE69DBE000D3477 /* FontDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AEEDD3A1EE69DBE000D3477 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6AEEDD3C1EE69DBE000D3477 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6AEEDD3D1EE69DBE000D3477 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6AEEDD3F1EE69DBE000D3477 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6AEEDD401EE69DBE000D3477 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6AEEDD431EE69DBE000D3477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6AEEDD451EE69DBE000D3477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AEEDD481EE69DBE000D3477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6AEEDD4A1EE69DBE000D3477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AEEDD4F1EE69DBE000D3477 /* FontDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AEEDD531EE69DBE000D3477 /* FontDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontDemoTests.m; sourceTree = "<group>"; };
+		6AEEDD551EE69DBE000D3477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AEEDD5A1EE69DBE000D3477 /* FontDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AEEDD5E1EE69DBF000D3477 /* FontDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontDemoUITests.m; sourceTree = "<group>"; };
+		6AEEDD601EE69DBF000D3477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AEEDD6D1EE6A164000D3477 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AEEDD331EE69DBE000D3477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AEEDD6E1EE6A164000D3477 /* CoreText.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AEEDD4C1EE69DBE000D3477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AEEDD571EE69DBE000D3477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AEEDD2D1EE69DBE000D3477 = {
+			isa = PBXGroup;
+			children = (
+				6AEEDD381EE69DBE000D3477 /* FontDemo */,
+				6AEEDD521EE69DBE000D3477 /* FontDemoTests */,
+				6AEEDD5D1EE69DBE000D3477 /* FontDemoUITests */,
+				6AEEDD371EE69DBE000D3477 /* Products */,
+				6AEEDD6C1EE6A164000D3477 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6AEEDD371EE69DBE000D3477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AEEDD361EE69DBE000D3477 /* FontDemo.app */,
+				6AEEDD4F1EE69DBE000D3477 /* FontDemoTests.xctest */,
+				6AEEDD5A1EE69DBE000D3477 /* FontDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AEEDD381EE69DBE000D3477 /* FontDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6AEEDD3C1EE69DBE000D3477 /* AppDelegate.h */,
+				6AEEDD3D1EE69DBE000D3477 /* AppDelegate.m */,
+				6AEEDD3F1EE69DBE000D3477 /* ViewController.h */,
+				6AEEDD401EE69DBE000D3477 /* ViewController.m */,
+				6AEEDD421EE69DBE000D3477 /* Main.storyboard */,
+				6AEEDD451EE69DBE000D3477 /* Assets.xcassets */,
+				6AEEDD471EE69DBE000D3477 /* LaunchScreen.storyboard */,
+				6AEEDD4A1EE69DBE000D3477 /* Info.plist */,
+				6AEEDD391EE69DBE000D3477 /* Supporting Files */,
+			);
+			path = FontDemo;
+			sourceTree = "<group>";
+		};
+		6AEEDD391EE69DBE000D3477 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AEEDD3A1EE69DBE000D3477 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AEEDD521EE69DBE000D3477 /* FontDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AEEDD531EE69DBE000D3477 /* FontDemoTests.m */,
+				6AEEDD551EE69DBE000D3477 /* Info.plist */,
+			);
+			path = FontDemoTests;
+			sourceTree = "<group>";
+		};
+		6AEEDD5D1EE69DBE000D3477 /* FontDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6AEEDD5E1EE69DBF000D3477 /* FontDemoUITests.m */,
+				6AEEDD601EE69DBF000D3477 /* Info.plist */,
+			);
+			path = FontDemoUITests;
+			sourceTree = "<group>";
+		};
+		6AEEDD6C1EE6A164000D3477 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AEEDD6D1EE6A164000D3477 /* CoreText.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AEEDD351EE69DBE000D3477 /* FontDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AEEDD631EE69DBF000D3477 /* Build configuration list for PBXNativeTarget "FontDemo" */;
+			buildPhases = (
+				6AEEDD321EE69DBE000D3477 /* Sources */,
+				6AEEDD331EE69DBE000D3477 /* Frameworks */,
+				6AEEDD341EE69DBE000D3477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontDemo;
+			productName = FontDemo;
+			productReference = 6AEEDD361EE69DBE000D3477 /* FontDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AEEDD4E1EE69DBE000D3477 /* FontDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AEEDD661EE69DBF000D3477 /* Build configuration list for PBXNativeTarget "FontDemoTests" */;
+			buildPhases = (
+				6AEEDD4B1EE69DBE000D3477 /* Sources */,
+				6AEEDD4C1EE69DBE000D3477 /* Frameworks */,
+				6AEEDD4D1EE69DBE000D3477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AEEDD511EE69DBE000D3477 /* PBXTargetDependency */,
+			);
+			name = FontDemoTests;
+			productName = FontDemoTests;
+			productReference = 6AEEDD4F1EE69DBE000D3477 /* FontDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6AEEDD591EE69DBE000D3477 /* FontDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AEEDD691EE69DBF000D3477 /* Build configuration list for PBXNativeTarget "FontDemoUITests" */;
+			buildPhases = (
+				6AEEDD561EE69DBE000D3477 /* Sources */,
+				6AEEDD571EE69DBE000D3477 /* Frameworks */,
+				6AEEDD581EE69DBE000D3477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AEEDD5C1EE69DBE000D3477 /* PBXTargetDependency */,
+			);
+			name = FontDemoUITests;
+			productName = FontDemoUITests;
+			productReference = 6AEEDD5A1EE69DBE000D3477 /* FontDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AEEDD2E1EE69DBE000D3477 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = iosdev;
+				TargetAttributes = {
+					6AEEDD351EE69DBE000D3477 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = C7F4D872ST;
+						ProvisioningStyle = Automatic;
+					};
+					6AEEDD4E1EE69DBE000D3477 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6AEEDD351EE69DBE000D3477;
+					};
+					6AEEDD591EE69DBE000D3477 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6AEEDD351EE69DBE000D3477;
+					};
+				};
+			};
+			buildConfigurationList = 6AEEDD311EE69DBE000D3477 /* Build configuration list for PBXProject "FontDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AEEDD2D1EE69DBE000D3477;
+			productRefGroup = 6AEEDD371EE69DBE000D3477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AEEDD351EE69DBE000D3477 /* FontDemo */,
+				6AEEDD4E1EE69DBE000D3477 /* FontDemoTests */,
+				6AEEDD591EE69DBE000D3477 /* FontDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AEEDD341EE69DBE000D3477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AEEDD491EE69DBE000D3477 /* LaunchScreen.storyboard in Resources */,
+				6AEEDD461EE69DBE000D3477 /* Assets.xcassets in Resources */,
+				6AEEDD441EE69DBE000D3477 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AEEDD4D1EE69DBE000D3477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AEEDD581EE69DBE000D3477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AEEDD321EE69DBE000D3477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AEEDD411EE69DBE000D3477 /* ViewController.m in Sources */,
+				6AEEDD3E1EE69DBE000D3477 /* AppDelegate.m in Sources */,
+				6AEEDD3B1EE69DBE000D3477 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AEEDD4B1EE69DBE000D3477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AEEDD541EE69DBE000D3477 /* FontDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AEEDD561EE69DBE000D3477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AEEDD5F1EE69DBF000D3477 /* FontDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AEEDD511EE69DBE000D3477 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AEEDD351EE69DBE000D3477 /* FontDemo */;
+			targetProxy = 6AEEDD501EE69DBE000D3477 /* PBXContainerItemProxy */;
+		};
+		6AEEDD5C1EE69DBE000D3477 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AEEDD351EE69DBE000D3477 /* FontDemo */;
+			targetProxy = 6AEEDD5B1EE69DBE000D3477 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6AEEDD421EE69DBE000D3477 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AEEDD431EE69DBE000D3477 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6AEEDD471EE69DBE000D3477 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AEEDD481EE69DBE000D3477 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AEEDD611EE69DBF000D3477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6AEEDD621EE69DBF000D3477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AEEDD641EE69DBF000D3477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C7F4D872ST;
+				INFOPLIST_FILE = FontDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.AsiaFinance.FontDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6AEEDD651EE69DBF000D3477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C7F4D872ST;
+				INFOPLIST_FILE = FontDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.AsiaFinance.FontDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6AEEDD671EE69DBF000D3477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FontDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.AsiaFinance.FontDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FontDemo.app/FontDemo";
+			};
+			name = Debug;
+		};
+		6AEEDD681EE69DBF000D3477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FontDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.AsiaFinance.FontDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FontDemo.app/FontDemo";
+			};
+			name = Release;
+		};
+		6AEEDD6A1EE69DBF000D3477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FontDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.AsiaFinance.FontDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FontDemo;
+			};
+			name = Debug;
+		};
+		6AEEDD6B1EE69DBF000D3477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FontDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.AsiaFinance.FontDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FontDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AEEDD311EE69DBE000D3477 /* Build configuration list for PBXProject "FontDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AEEDD611EE69DBF000D3477 /* Debug */,
+				6AEEDD621EE69DBF000D3477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AEEDD631EE69DBF000D3477 /* Build configuration list for PBXNativeTarget "FontDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AEEDD641EE69DBF000D3477 /* Debug */,
+				6AEEDD651EE69DBF000D3477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AEEDD661EE69DBF000D3477 /* Build configuration list for PBXNativeTarget "FontDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AEEDD671EE69DBF000D3477 /* Debug */,
+				6AEEDD681EE69DBF000D3477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AEEDD691EE69DBF000D3477 /* Build configuration list for PBXNativeTarget "FontDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AEEDD6A1EE69DBF000D3477 /* Debug */,
+				6AEEDD6B1EE69DBF000D3477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AEEDD2E1EE69DBE000D3477 /* Project object */;
+}
